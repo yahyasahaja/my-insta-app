@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="men.ngopi.sans.myinstaapp.fragments.FragmentHome">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+</LinearLayout>
